@@ -1,1 +1,8 @@
-It is an example of content based clustering machine learning technique.
+Built a content-based movie recommendation system utilizing TMDB 5000 Movies and Credits datasets. The system employs feature engineering and natural language processing (NLP) techniques to process metadata, such as genres, keywords, cast, and crew. Key steps include:
+
+# 1. Data Cleaning: Addressed missing and duplicate values for a cleaner dataset.
+# 2. Feature Extraction: Transformed complex JSON-like fields (genres, cast, crew) into usable formats.
+# 3. Recommendation Engine: Implemented cosine similarity to compare movie vectors and generate tailored recommendations.
+# 4. NLP Libraries: Used NLTK for text preprocessing, including tokenization and stemming, and Scikit-learn for vectorization with techniques like CountVectorizer and TfidfVectorizer.
+Technologies: Python, pandas, NumPy, NLTK, scikit-learn.
+
